@@ -1,6 +1,60 @@
 /* ==END== */
-.small-btn {
-  font-size: 22px;
-  color: black;
-  background-color: lightblue;
+/* ==END== */
+ul > li {
+  list-style: none;
 }
+
+h2 + p {
+  border-radius: 1px solid gray;
+}
+
+p ~ span {
+  opacity: 0.8;
+}
+
+.section {
+  width: 100%;
+}
+.section .title {
+  color: teal;
+}
+.section .text {
+  font-size: 14px;
+}
+
+.link {
+  color: black;
+}
+.link:hover, .link:focus {
+  color: red;
+}
+
+.btn {
+  background: teal;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btn:hover, .btn:focus {
+  color: blue;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+}
+.btn-icon:hover {
+  width: 50px;
+  height: 50px;
+}
+.btn:hover .btn-icon {
+  font-size: 20px;
+}
+
+.btn-label {
+  font-size: 16px;
+}
+.btn:hover .btn-label {
+  font-size: 20px;
+}
+
+/* ==END== */
