@@ -6,42 +6,34 @@
 /* ==END== */
 /* ==END== */
 /* ==END== */
-.icon-40px {
-  font-size: 40px;
-  height: 40px;
-  width: 40px;
+/* ==END== */
+.alert-primary {
+  background-color: orange;
 }
 
-.icon-50px {
-  font-size: 50px;
-  height: 50px;
-  width: 50px;
+.alert-success {
+  background-color: green;
 }
 
-.icon-80px {
-  font-size: 80px;
-  height: 80px;
-  width: 80px;
+.alert-danger {
+  background-color: darkred;
 }
 
-.btn-sm {
-  padding: 5px 10px;
-  border-radius: 10px;
+.alert-warning {
+  background-color: violet;
 }
 
-.btn-md {
-  padding: 10px 15px;
-  border-radius: 15px;
+.alert-info {
+  background-color: rgb(44, 119, 145);
 }
 
-.btn-lg {
-  padding: 15px 20px;
-  border-radius: 20px;
+body {
+  background-color: orange;
 }
 
-.btn-xl {
-  padding: 20px 25px;
-  border-radius: 25px;
+.button {
+  color: red;
+  background-color: white;
 }
 
 /* ==END== */
